@@ -3,7 +3,7 @@ import user from '../json/user.json';
 import data from '../json/data.json';
 import { Statistics } from './statistics/statistics';
 import friends from '../json/friends.json';
-import { FriendList } from './friends/friends';
+import { FriendList } from './friends/FriendList';
 import transactions from '../json/transactions.json';
 import { TransactionHistory } from './transactions/transactions';
 
