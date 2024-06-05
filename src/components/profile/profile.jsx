@@ -1,4 +1,4 @@
-import css from './profile.module.css';
+import css from './Profile.module.css';
 import propTypes from 'prop-types';
 
 export const Profile = ({ avatar, username, tag, location, stats }) => {
