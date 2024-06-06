@@ -1,8 +1,9 @@
 .friends {
   width: 300px;
+  -webkit-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
   margin: 50px auto;
-  position: relative;
-  left: -5px;
 }
 
 .item {
@@ -11,13 +12,6 @@
   align-items: center;
   padding: 10px;
   border: gray solid 1px;
-  margin: 5px;
-  background: white;
-  width: calc(100% - 20px); /* Szerokość elementu minus marginesy */
-  -webkit-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
 }
 
 .statusOnline {
