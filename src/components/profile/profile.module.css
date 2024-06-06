@@ -1,56 +1,67 @@
 .profile {
-  margin: 50px auto;
-  padding: 25px;
-  width: 300px;
-  -webkit-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
-  background: linear-gradient(
-    to bottom,
-    rgba(212, 228, 239, 1) 0%,
-    rgba(134, 174, 204, 1) 100%
-  );
-  border-radius: 25px;
+    max-width: 300px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .description {
-  text-align: center;
+    background-color: #eff6f7;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+
+
 }
 
 .avatar {
-  width: 300px;
-  height: auto;
-  margin: 0 auto 5px;
+    max-width: 250px;
+
 }
 
 .name {
-  font-size: 25px;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 0;
+    font-size: 28px;
+    font-weight: bolder;
 }
 
-.tag {
-  color: #7e7e7e;
+.tag, .location {
+    font-size: 20px;
+
 }
 
 .stats {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 10px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: #eff6f7;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+
+
 }
 
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100px;
-  border: #aaaaaa solid 1px;
-  box-shadow: inset -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+.stats > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .label {
-  font-weight: 500;
+    font-size: 18px;
+
+}
+
+.quantity {
+    font-weight: bolder;
+    font-size: 20px;
 }

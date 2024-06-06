@@ -1,45 +1,45 @@
-.statistics {
+.friendlist {
     max-width: 300px;
     margin: 30px;
-
-
-}
-
-.title {
-    font-size: 28px;
-    font-weight: bolder;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 15px;
-}
-
-.statList{
+    padding-bottom: 10px;
     background-color: #eff6f7;
     border-radius: 10px;
     box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.item {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.item{
+    display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 10px;
 
 }
 
-.label {
-    font-size: 18px;
+.online{
+    font-size: xx-large;
+    color: green;
 
 }
 
-.percentage {
-    font-weight: bolder;
+.offline{
+    font-size: xx-large;
+    color: red;
+
+}
+
+
+.avatar{
+    width: 42px;
+    height: 42px;
+
+}
+
+.name{
     font-size: 20px;
 
 }
