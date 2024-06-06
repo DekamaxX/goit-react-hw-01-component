@@ -1,32 +1,38 @@
-.statistics{
-    display: block;
+.statistics {
+    width: 300px;
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
     margin: auto;
-    width: 350px;
-    border-style:double;
     border-radius: 5px;
-    border-color: black;
-}
-
-.title{
+    overflow: hidden;
+    color: white;
+  }
+  
+  .title {
     text-align: center;
-    margin-top: 0;
-}
-
-.startList{
-    margin: auto;
-     list-style: none;
+  }
+  
+  .statList {
     display: flex;
-        padding-left: -20px;
-        justify-items: space-around;
-}
-
-.items{
+  }
+  
+  .item {
     display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 70px;
-        align-items: center;
-        border-style:groove;
-        border-width: 5px;
+    flex-direction: column;
+    padding: 5px;
+    width: 60px;
+    align-items: center;
+  }
 
-}
+  .label {
+    font-size: 12px;
+  }
+
+  .percentage {
+    font-size: 20px;
+  }
+
+  .item {
+    padding: 10px;
+  }
